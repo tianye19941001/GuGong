@@ -174,6 +174,7 @@ html,body{ min-height: 100%; min-width: 100%; }
 	font-size: rem(24);
 	padding: rem(25) 0;
 	color: #8c8c8c;
+
 	i{	
 		width: rem(44);
 		height: rem(44);
@@ -188,3 +189,73 @@ html,body{ min-height: 100%; min-width: 100%; }
 		margin: rem(12) 0 rem(150);
 	}
 }
+
+// page-3
+.gg-top-pic {
+	width: 100%;
+	height: rem(250);
+	overflow: hidden;
+	img{
+		display: block;
+		width: 100%;
+		position: relative;
+		top: rem(-90)
+	}
+}
+.gg-walk-tabs{
+	box-sizing: border-box;
+	padding: 0 rem(12);
+	font-size: rem(24);
+	border-bottom: 1px solid #ccc;
+	@extend .clearfix;
+
+	li{
+		text-align: center;
+		float: left;
+		width: 20%;
+		height: rem(90);
+		line-height: rem(90);
+	}
+	a{color: #000}
+	.active a{color: #e30000}
+}
+.gg-walk-con{
+	.title{
+		display: block;
+		padding: rem(70) 0 rem(44);
+		width: rem(300);
+		margin: 0 auto;
+	}
+	.about{
+		padding: 0 rem(50);
+		box-sizing:border-box;
+		font-size: rem(32);
+		line-height: rem(48);
+		color: #000;
+		img{
+			vertical-align: bottom;
+		}
+	}
+	.big-tit {
+		text-align: center;
+		font-weight: bold;
+		color: #000;
+		font-size: rem(46);
+		margin: rem(50) 0 rem(100);
+	}
+}
+.img-in-p{
+	display: inline-block;
+	height: 24px;
+}
+.img-gg{
+	width: rem(90)
+}
+.img-gwy{
+	width: rem(48)
+}
+.img-wm{
+	width: rem(111)
+}
+
+

@@ -80,7 +80,7 @@ sup {
 
 /*CLEARFIX
 -------------------------------------------------------------- */
-.clearfix:after {
+.clearfix:after, .gg-walk-tabs:after {
   content: ".";
   display: block;
   height: 0;
@@ -88,15 +88,15 @@ sup {
   visibility: hidden;
 }
 
-.clearfix {
+.clearfix, .gg-walk-tabs {
   display: inline-block;
 }
 
-* html .clearfix {
+* html .clearfix, * html .gg-walk-tabs {
   height: 1%;
 }
 
-.clearfix {
+.clearfix, .gg-walk-tabs {
   display: block;
 }
 
@@ -809,6 +809,79 @@ html, body {
 .gg-loading span {
   display: block;
   margin: 0.48rem 0 6rem;
+}
+
+.gg-top-pic {
+  width: 100%;
+  height: 10rem;
+  overflow: hidden;
+}
+.gg-top-pic img {
+  display: block;
+  width: 100%;
+  position: relative;
+  top: -3.6rem;
+}
+
+.gg-walk-tabs {
+  box-sizing: border-box;
+  padding: 0 0.48rem;
+  font-size: 0.96rem;
+  border-bottom: 1px solid #ccc;
+}
+.gg-walk-tabs li {
+  text-align: center;
+  float: left;
+  width: 20%;
+  height: 3.6rem;
+  line-height: 3.6rem;
+}
+.gg-walk-tabs a {
+  color: #000;
+}
+.gg-walk-tabs .active a {
+  color: #e30000;
+}
+
+.gg-walk-con .title {
+  display: block;
+  padding: 2.8rem 0 1.76rem;
+  width: 12rem;
+  margin: 0 auto;
+}
+.gg-walk-con .about {
+  padding: 0 2rem;
+  box-sizing: border-box;
+  font-size: 1.28rem;
+  line-height: 1.92rem;
+  color: #000;
+}
+.gg-walk-con .about img {
+  vertical-align: bottom;
+}
+.gg-walk-con .big-tit {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.84rem;
+  margin: 2rem 0 4rem;
+}
+
+.img-in-p {
+  display: inline-block;
+  height: 24px;
+}
+
+.img-gg {
+  width: 3.6rem;
+}
+
+.img-gwy {
+  width: 1.92rem;
+}
+
+.img-wm {
+  width: 4.44rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
