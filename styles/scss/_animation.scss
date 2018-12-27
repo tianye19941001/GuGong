@@ -5,8 +5,6 @@
 	filter: alpha(opacity=0);
 	transition: all 1s;
 }
-
-
 .an_toTop {
     animation: toTop 0.5s linear 0s;
     -webkit-animation: toTop 0.5s linear 0s;
@@ -53,6 +51,12 @@
 	}
 }
 @include an_delay(1,40);
+
+@keyframes topAndBottom{
+	0%{ transform: translateX(-50%) translateY(-10%); }
+	50%{ transform: translateX(-50%) translateY(-40%); }
+	100%{ transform: translateX(-50%) translateY(-10%); }
+}
 
 @keyframes toTop{
 	0%{ transform:translate3d(0px,100px,0); opacity: 0;filter: alpha(opacity= 0); }

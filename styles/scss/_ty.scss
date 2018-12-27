@@ -1,11 +1,77 @@
 @charset "utf-8";
 
-.oh{ overflow: hidden; }
-body{ background-color: #fff; font-family: "黑体"; min-width: 1300px; }
+html,body{ min-height: 100%; min-width: 100%; }
+// page-1
+.gg-title {
+	position: absolute;
+	left: 50%;
+	top: rem(30);
+	width: rem(700);
+	height: rem(120);
+	line-height: rem(120);
+	transform: translateX(-50%);
+	background-color: #e6d095;
+	border-radius: rem(120);
+	overflow: hidden;
+	z-index: 2;
+	.rac{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 150%;
+		margin-top: rem(-30);
+	}
+	.gg-time {
+		color: #c11217;
+		position: relative;
+		z-index: 3;
+		line-height: 1;
 
-
-// 手机
-.phone{ display: none; }
-@media screen and (min-width:1px) and (max-width:1019px){
-	
+		.day { font-size: rem(45); position: absolute; left: rem(65); top: rem(-10) }
+		.month{ font-size: rem(16); position: absolute; left: rem(60); top: rem(34); }
+	}
+	p{
+		font-size: rem(28);
+		line-height: rem(36);
+		position: absolute;
+		right: rem(26);
+		top: 50%;
+		transform: translateY(-50%);
+		width: rem(500);
+		overflow : hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+}
+.gg-map{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ddd;
+	z-index: 1;
+}
+.gg-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	.icon {
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+		width: rem(135);
+		animation: topAndBottom 1.5s infinite;
+	}
+	.background{
+		width: 100%;
+		display: block;
+	}
 }
