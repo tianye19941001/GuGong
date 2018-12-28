@@ -448,3 +448,30 @@ html,body{ min-height: 100%; min-width: 100%; }
 	}
 }
 
+// page-10
+.gg-building {
+	.about{
+		padding: rem(50);
+		background-color: #f4efe2;
+		margin-bottom: rem(40);
+		h3{
+			color: #b40000;
+			font-size: rem(36);
+			margin-bottom: rem(30);
+		}
+		p{
+			font-size: rem(24);
+			line-height: rem(36);
+		}
+	}
+}
+.gg-building-tit{
+	font-size: rem(28);
+	padding: 0 rem(50);
+	font-weight: bold;
+}
+
+
+
+
+

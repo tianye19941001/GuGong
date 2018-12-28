@@ -1151,4 +1151,25 @@ html, body {
   width: 100%;
 }
 
+.gg-building .about {
+  padding: 2rem;
+  background-color: #f4efe2;
+  margin-bottom: 1.6rem;
+}
+.gg-building .about h3 {
+  color: #b40000;
+  font-size: 1.44rem;
+  margin-bottom: 1.2rem;
+}
+.gg-building .about p {
+  font-size: 0.96rem;
+  line-height: 1.44rem;
+}
+
+.gg-building-tit {
+  font-size: 1.12rem;
+  padding: 0 2rem;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=styles.css.map */
