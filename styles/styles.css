@@ -758,6 +758,103 @@ p {
   display: block;
 }
 
+.gg-hide-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(205, 177, 101, 0.9);
+  z-index: 9;
+}
+.gg-hide-menu .in {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.gg-hide-menu img {
+  display: block;
+  position: absolute;
+}
+.gg-hide-menu .bac {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+.gg-hide-menu .person {
+  width: 9.2rem;
+  left: 50%;
+  margin-left: -4.6rem;
+  bottom: 41.28rem;
+  z-index: 11;
+}
+.gg-hide-menu .menus {
+  width: 25.6rem;
+  left: 50%;
+  margin-left: -12.8rem;
+  z-index: 11;
+  bottom: 3.8rem;
+}
+.gg-hide-menu i, .gg-hide-menu a {
+  display: block;
+  position: absolute;
+  width: 4.8rem;
+  height: 7.2rem;
+  z-index: 12;
+}
+.gg-hide-menu .close {
+  width: 4rem;
+  height: 4rem;
+  left: 50%;
+  margin-left: -2rem;
+  bottom: 2.4rem;
+}
+.gg-hide-menu .index {
+  left: 50%;
+  bottom: 19.2rem;
+  margin-left: -2rem;
+}
+.gg-hide-menu .ing {
+  left: 2.2rem;
+  bottom: 10.8rem;
+}
+.gg-hide-menu .walk {
+  left: 9.2rem;
+  bottom: 10.8rem;
+}
+.gg-hide-menu .study {
+  left: 16rem;
+  bottom: 10.8rem;
+}
+.gg-hide-menu .search {
+  left: 23rem;
+  bottom: 10.8rem;
+}
+
+.gg-open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+.gg-open img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.gg-open .ad-pic {
+  width: 20rem;
+  bottom: 14.4rem;
+}
+.gg-open .close {
+  width: 2.88rem;
+  bottom: 8rem;
+}
+
 .gg-header {
   height: 3.8rem;
   line-height: 3.8rem;

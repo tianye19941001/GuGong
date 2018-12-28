@@ -84,4 +84,16 @@
 		$('.gg-school-lists > div').hide().eq(thisIndex).show();
 	})
 
+	$('.gg-footer .icon').click(function(){
+		$('.gg-hide-menu').show()
+	})
+
+	$('.gg-hide-menu .close').click(function(){
+		$('.gg-hide-menu').hide()
+	})
+	$('.gg-open .close').click(function(){
+		$('.gg-open').hide()
+	})
+	
+
 });
