@@ -632,6 +632,14 @@ html, body {
   min-width: 100%;
 }
 
+.f-red {
+  color: #b40000;
+}
+
+.mb150 {
+  margin-bottom: 6rem !important;
+}
+
 .gg-title {
   position: absolute;
   left: 50%;
@@ -908,8 +916,57 @@ html, body {
   width: 4.44rem;
 }
 
-.gg-walk-detial {
+.p-in-walk {
   padding: 0 2rem;
+  font-size: 1.28rem;
+  line-height: 1.84rem;
+  margin: -2.8rem 0 3.2rem;
+}
+
+.gg-walk-detial {
+  margin: 0 2rem 4.4rem 2rem;
+  padding: 2.4rem;
+  box-sizing: border-box;
+  border-radius: 1.2rem;
+}
+.gg-walk-detial.b1 {
+  background-color: #e4f9fa;
+}
+.gg-walk-detial.b2 {
+  background-color: #edf0fc;
+}
+.gg-walk-detial.b2 img {
+  margin-top: -5.6rem;
+}
+.gg-walk-detial.b3 {
+  background-color: #fdeef2;
+}
+.gg-walk-detial.b4 {
+  background-color: #eef8fd;
+}
+.gg-walk-detial.b5 {
+  background-color: #faeefd;
+}
+.gg-walk-detial.b6 {
+  background-color: #fdfbee;
+}
+.gg-walk-detial.b4, .gg-walk-detial.b5, .gg-walk-detial.b6 {
+  margin-bottom: 6rem;
+}
+.gg-walk-detial img {
+  width: 16rem;
+  display: block;
+  margin: -6.4rem auto 0;
+}
+.gg-walk-detial h3 {
+  color: #b40000;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+.gg-walk-detial p {
+  font-size: 1.28rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
