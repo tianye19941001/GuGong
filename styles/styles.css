@@ -969,4 +969,33 @@ html, body {
   font-size: 1.28rem;
 }
 
+.gg-time-open {
+  padding-top: 3.2rem;
+}
+.gg-time-open img {
+  display: block;
+  margin: 0 auto 1.6rem;
+  width: 8.88rem;
+}
+.gg-time-open .big-time {
+  font-size: 1.28rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.gg-time-open .detial-time {
+  padding: 0 2rem;
+  font-size: 1.28rem;
+  line-height: 1.5;
+}
+.gg-time-open:last-child {
+  padding-bottom: 2rem;
+}
+.gg-time-open.dj {
+  color: #00c4d6;
+}
+.gg-time-open.wj {
+  color: #e14000;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -292,3 +292,15 @@ html,body{ min-height: 100%; min-width: 100%; }
 	p{ font-size: rem(32)}
 }
 
+// page-4
+.gg-time-open {
+	padding-top: rem(80);
+	img{display: block; margin: 0 auto rem(40); width: rem(222);}
+	.big-time{ font-size: rem(32);font-weight: bold; text-align: center; margin-bottom: rem(30); }
+	.detial-time{
+		padding: 0 rem(50);font-size: rem(32); line-height: 1.5;
+	}
+	&:last-child{padding-bottom: rem(50);}
+	&.dj{color: #00c4d6;}
+	&.wj{color: #e14000;}
+}
