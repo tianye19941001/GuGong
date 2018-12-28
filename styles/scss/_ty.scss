@@ -242,6 +242,8 @@ html,body{ min-height: 100%; min-width: 100%; }
 		color: #000;
 		font-size: rem(46);
 		margin: rem(50) 0 rem(100);
+
+		&.tal{text-align: left;}
 	}
 }
 .img-in-p{
@@ -258,4 +260,10 @@ html,body{ min-height: 100%; min-width: 100%; }
 	width: rem(111)
 }
 
+.gg-walk-detial {
+	padding: 0 rem(50);
+	img{}
+	h3{}
+	p{}
+}
 

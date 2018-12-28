@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/swiper.min.css">
+	<script src="js/fn.js"></script>
+</head>
+<body>
+
+<header class="gg-header">
+	<span class="back"><i></i></span>
+	逛故宫
+</header>
+<div class="gg-walk">
+	<div class="gg-top-pic">
+		<img src="./images/news_top_img.png" alt="">
+	</div>
+	<ul class="gg-walk-tabs">
+		<li class="active"><a href="">参观须知</a></li>
+		<li><a href="">开放时间</a></li>
+		<li><a href="">门票政策</a></li>
+		<li><a href="">相关服务</a></li>
+		<li><a href="">交通信息</a></li>
+	</ul>
+	<div class="gg-walk-con">
+		<img class="title" src="./images/canguanxuzhi.png" alt="">
+		<p class="about">
+			北京<span class="img-in-p"><img class="img-gg" src="./images/text_gugong.png" alt=""></span>（旧称紫禁城）是明、清两代皇宫的遗址。1961年，经国务院批准，被定为全国重点文物保护单位。 1987年，被联合国教科文组织列入“世界文化遗产”名录。<br /><br />
+			自2011年7月2日起，<span class="red-in-p"></span>博物院实行自南向北单向参观路线：午门（南门）观众参观结束后可由神武门或东华门（东门）离开故宫。
+		</p>
+		<div class="gg-time-open wj">
+			<img src="./images/img_wangji.png" alt="">
+			<p class="big-time">每年4月1日～10月31日</p>
+			<p class="detial-time">开始售票、开放进馆时间<span class="fr">8:30</span></p>
+			<p class="detial-time">止票时间（含钟表馆、珍宝馆）<span class="fr">16:00</span></p>
+			<p class="detial-time">停止入馆时间<span class="fr">16:10</span></p>
+			<p class="detial-time">清场时间<span class="fr">17:00</span></p>
+		</div>
+		<div class="gg-time-open dj">
+			<img src="./images/img_danji.png" alt="">
+			<p class="big-time">每年11月1日～3月31日</p>
+			<p class="detial-time">开始售票、开放进馆时间<span class="fr">8:30</span></p>
+			<p class="detial-time">止票时间（含钟表馆、珍宝馆）<span class="fr">15:30</span></p>
+			<p class="detial-time">停止入馆时间<span class="fr">15:40</span></p>
+			<p class="detial-time">清场时间<span class="fr">16:30</span></p>
+		</div>
+	</div>
+
+</div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+	var mySwiper = new Swiper('.gg-swiper-container', {
+      pagination: {el: '.swiper-pagination'},
+      loop: true
+    });
+</script>
+</body>
+</html>

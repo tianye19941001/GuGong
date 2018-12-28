@@ -866,6 +866,9 @@ html, body {
   font-size: 1.84rem;
   margin: 2rem 0 4rem;
 }
+.gg-walk-con .big-tit.tal {
+  text-align: left;
+}
 
 .img-in-p {
   display: inline-block;
@@ -882,6 +885,10 @@ html, body {
 
 .img-wm {
   width: 4.44rem;
+}
+
+.gg-walk-detial {
+  padding: 0 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
