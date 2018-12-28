@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-html,body{ min-height: 100%; min-width: 100%; word-break:break-all }
+html,body{ min-height: 100%; min-width: 100%; }
+p{word-break:break-all}
 .f-red{color: #b40000;}
 .f-orange{color: #e14000;}
 .f-blue{color: #00c4d6;}
