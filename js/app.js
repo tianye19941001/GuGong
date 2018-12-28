@@ -55,7 +55,6 @@
 			return ""
 		}
 	}
-
 	$('.gg-header .back').click(function(){
 		window.history.go(-1);
 	})

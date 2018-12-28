@@ -630,6 +630,7 @@ a:active {
 html, body {
   min-height: 100%;
   min-width: 100%;
+  word-break: break-all;
 }
 
 .f-red {
@@ -650,6 +651,21 @@ html, body {
 
 .mb150 {
   margin-bottom: 6rem !important;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 .gg-title {
@@ -746,7 +762,9 @@ html, body {
   text-align: center;
   background-color: #fff;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.05);
-  position: relative;
+  position: sticky;
+  left: 0;
+  top: 0;
   z-index: 2;
 }
 .gg-header .back {
@@ -770,19 +788,6 @@ html, body {
 .gg-swiper-container .swiper-slide {
   text-align: center;
   background: #defefc;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
 }
 .gg-swiper-container .swiper-slide img {
   width: 100%;
@@ -1165,11 +1170,143 @@ html, body {
   font-size: 0.96rem;
   line-height: 1.44rem;
 }
+.gg-building .news {
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid #dedede;
+  height: 6.4rem;
+  padding: 1.6rem 2rem;
+  box-sizing: border-box;
+  margin-bottom: 1.6rem;
+}
+.gg-building .news p {
+  font-size: 1.12rem;
+  line-height: 1.44rem;
+  position: absolute;
+  padding-left: 4rem;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.gg-building .news .gg-time {
+  position: static;
+}
+.gg-building .news .gg-time .day {
+  left: 0.6rem;
+  top: 0.4rem;
+}
+.gg-building .news .gg-time .month {
+  left: 0.4rem;
+  top: 2.24rem;
+}
+.gg-building .news .swiper-slide {
+  text-align: left;
+  position: relative;
+  height: 3.2rem;
+  width: 19.2rem;
+}
+.gg-building .shows {
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid #dedede;
+  height: 13.6rem;
+  padding: 1.6rem 2rem;
+  box-sizing: border-box;
+  margin-bottom: 1.6rem;
+}
+.gg-building .shows img {
+  width: 21.2rem;
+  height: 7.6rem;
+}
+.gg-building .shows .swiper-slide {
+  text-align: center;
+  position: relative;
+  height: 10.4rem;
+  width: 21.2rem;
+}
+.gg-building .shows p {
+  font-size: 0.96rem;
+  color: #656565;
+  padding-top: 0.4rem;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 21.2rem;
+  text-overflow: ellipsis;
+}
+.gg-building .knows {
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid #dedede;
+  height: 17.2rem;
+  padding: 1.6rem 0;
+  box-sizing: border-box;
+  margin-bottom: 1.6rem;
+}
+.gg-building .knows img {
+  width: 10.4rem;
+}
+.gg-building .knows .swiper-slide {
+  text-align: center;
+  position: relative;
+  height: 14rem;
+  width: 15rem;
+}
+.gg-building .knows p {
+  font-size: 0.96rem;
+  color: #656565;
+  padding-top: 0.4rem;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 15rem;
+  text-overflow: ellipsis;
+}
 
 .gg-building-tit {
   font-size: 1.12rem;
   padding: 0 2rem;
   font-weight: bold;
+}
+
+.gg-public-footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+}
+.gg-public-footer img {
+  width: 100%;
+  display: block;
+}
+.gg-public-footer a {
+  display: block;
+  position: absolute;
+  bottom: 0.4rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0);
+}
+.gg-public-footer .index {
+  width: 5.8rem;
+  height: 5.8rem;
+  left: 1.2rem;
+  bottom: 0rem;
+}
+.gg-public-footer .ing {
+  left: 9.6rem;
+}
+.gg-public-footer .walk {
+  left: 14.4rem;
+}
+.gg-public-footer .study {
+  left: 19.2rem;
+}
+.gg-public-footer .search {
+  left: 24rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -21,60 +21,128 @@
 		<h3 class="fb">太和殿</h3>
 		<p>太和殿就是俗称的 “金銮宝殿”，是紫禁城内体量最大、等级最高的建筑物，屋脊两端安有高3.4米的大吻，屋檐上安放着10个小兽，大殿内外装饰着成千上万条金龙纹，都是现存古代建筑中绝无仅有的。是明清两朝皇帝举行登基、大婚以及节庆朝贺等盛大典礼的地方。</p>
 	</div>
-
-	<div class="news">
-		<h4 class="gg-building-tit">这里的新闻</h4>
-		<ul>
-			<li>
-				<a>
+	<h4 class="gg-building-tit">这里的新闻</h4>
+	<div class="news swiper-container-news">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="">
 					<span class="gg-time">
 						<em class="day">27</em><br />
 						<em class="month">2018.12</em>
 					</span>
 					<p>故宫博物院举办系列活动迎接“文化和自然遗产日”</p>
 				</a>
-			</li>
-		</ul>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<span class="gg-time">
+						<em class="day">27</em><br />
+						<em class="month">2018.12</em>
+					</span>
+					<p>故宫博物院举办</p>
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<span class="gg-time">
+						<em class="day">27</em><br />
+						<em class="month">2018.12</em>
+					</span>
+					<p>故宫博物院举办系列活动迎接“文化和自然遗产日”</p>
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<span class="gg-time">
+						<em class="day">27</em><br />
+						<em class="month">2018.12</em>
+					</span>
+					<p>故宫博物院举办系列活动迎接“文化和自然遗产日”</p>
+				</a>
+			</div>
+		</div>
 	</div>
 	
-	<div class="shows">
-		<h4 class="gg-building-tit">这里的展览</h4>
-		<ul>
-			<li>
-				<a>
-					<img src="" alt="">
-					<p>asdasdasd </p>
+	<h4 class="gg-building-tit">这里的展览</h4>
+	<div class="shows swiper-container-shows">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="">
+					<img src="./images/img_slide1.png" alt="">
+					<p>佛陀之光——故宫博物院与止观美术馆佛教造像展</p>
 				</a>
-			</li>
-		</ul>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<img src="./images/img_slide1.png" alt="">
+					<p>佛陀之光——故宫博物院与止观美术馆佛教造像展</p>
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<img src="./images/img_slide1.png" alt="">
+					<p>佛陀之光——故宫博物院与止观美术馆佛教造像展</p>
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<img src="./images/img_slide1.png" alt="">
+					<p>佛陀之光——故宫博物院与止观美术馆佛教造像展</p>
+				</a>
+			</div>
+		</div>
 	</div>
-
-	<div class="knows">
-		<h4 class="gg-building-tit">相关小知识</h4>
-		<ul>
-			<li>
-				<a>
-					<img src="" alt="">
-					<p>asdasdasd </p>
+	
+	<h4 class="gg-building-tit">相关小知识</h4>
+	<div class="knows swiper-container-knows">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="">
+					<img src="./images/zhishi_1.png" alt="">
+					<p>凤在上、龙在下”的彩绘</p>
 				</a>
-			</li>
-		</ul>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<img src="./images/zhishi_2.png" alt="">
+					<p>乾隆皇帝的私人书房</p>
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<img src="./images/zhishi_1.png" alt="">
+					<p>凤在上、龙在下”的彩绘</p>
+				</a>
+			</div>
+		</div>
 	</div>
 </div>
 
 <footer class="gg-public-footer">
-	<a class="index" href="">
-		<img src="" alt="">	
-	</a>
-	<ul>
-		<li><a href=""><i></i>正发生</a></li>
-		<li><a href=""><i></i>逛故宫</a></li>
-		<li><a href=""><i></i>学堂</a></li>
-		<li><a href=""><i></i>探索</a></li>
-	</ul>
+	<img src="./images/footer.png" alt="">
+	<a class="index" href=""></a>
+	<a class="ing" href=""></a>
+	<a class="walk" href=""></a>
+	<a class="study" href=""></a>
+	<a class="search" href=""></a>
 </footer>
 
 <script src="js/zepto.min.js"></script>
 <script src="js/app.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper1 = new Swiper('.swiper-container-news', {
+      slidesPerView: 'auto',
+      spaceBetween: 30
+    });
+    var swiper2 = new Swiper('.swiper-container-shows', {
+      slidesPerView: 'auto',
+      spaceBetween: 30
+    });
+    var swiper2 = new Swiper('.swiper-container-knows', {
+      slidesPerView: 'auto',
+      spaceBetween: 0
+    });
+  </script>
 </body>
 </html>
