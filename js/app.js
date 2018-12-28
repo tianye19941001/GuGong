@@ -77,4 +77,12 @@
 		$('.gg-select ul').hide()
 	})
 
+	$('.gg-school-tab li').click(function(){
+		var thisText = $(this).text();
+		var thisIndex = $('.gg-school-tab li').index($(this));
+		$(this).addClass('active').siblings().removeClass('active');
+
+		$('.gg-school-lists > div').hide().eq(thisIndex).show();
+	})
+
 });

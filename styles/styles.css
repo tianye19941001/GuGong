@@ -80,7 +80,7 @@ sup {
 
 /*CLEARFIX
 -------------------------------------------------------------- */
-.clearfix:after, .gg-walk-tabs:after {
+.clearfix:after, .gg-walk-tabs:after, .gg-school-tab ul:after {
   content: ".";
   display: block;
   height: 0;
@@ -88,15 +88,15 @@ sup {
   visibility: hidden;
 }
 
-.clearfix, .gg-walk-tabs {
+.clearfix, .gg-walk-tabs, .gg-school-tab ul {
   display: inline-block;
 }
 
-* html .clearfix, * html .gg-walk-tabs {
+* html .clearfix, * html .gg-walk-tabs, * html .gg-school-tab ul, .gg-school-tab * html ul {
   height: 1%;
 }
 
-.clearfix, .gg-walk-tabs {
+.clearfix, .gg-walk-tabs, .gg-school-tab ul {
   display: block;
 }
 
@@ -1110,6 +1110,45 @@ html, body {
 .gg-traffic {
   width: 100%;
   margin: 4rem 0;
+}
+
+.gg-school-tab ul {
+  height: 4rem;
+}
+.gg-school-tab li {
+  float: left;
+  width: 33%;
+  height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+  text-align: center;
+  color: #8c8c8c;
+}
+.gg-school-tab li span {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.gg-school-tab li.active {
+  color: #e30000;
+}
+.gg-school-tab li.active span {
+  border-bottom: 2px solid #e30000;
+}
+
+.gg-school-lists a {
+  display: block;
+  margin: 0 auto 0.8rem;
+  width: 28.48rem;
+  height: 16rem;
+  background-color: #dffffd;
+  overflow: hidden;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+.gg-school-lists img {
+  display: block;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

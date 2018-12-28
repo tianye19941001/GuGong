@@ -404,5 +404,47 @@ html,body{ min-height: 100%; min-width: 100%; }
 }
 
 // page-8
+.gg-school-tab{
+	ul{
+		@extend .clearfix;
+		height: rem(100);
+	}
+	li{
+		float: left;
+		width: 33%;
+		height: rem(100);
+		text-align: center;
+		line-height: rem(100);
+		text-align: center;
+		color: #8c8c8c;
+		span{
+			display: block;
+			margin: 0 auto;
+			width: 50%;
+		}
 
+		&.active{
+			color: #e30000;
+			span{
+				border-bottom: 2px solid #e30000;
+			}
+		}
+	}
+}
+.gg-school-lists {
+	a{
+		display: block;
+		margin: 0 auto rem(20);
+		width: rem(712);
+		height: rem(400);
+		background-color: #dffffd;
+		overflow: hidden;
+		border-radius: rem(10);
+		overflow: hidden;
+	}
+	img{
+		display: block;
+		width: 100%;
+	}
+}
 
