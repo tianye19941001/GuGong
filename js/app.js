@@ -60,4 +60,21 @@
 		window.history.go(-1);
 	})
 
+	$('.gg-select > span').click(function(){
+		$('.gg-select ul').show()
+		return false;
+	})
+
+	$('.gg-select li').click(function(){
+		var thisText = $(this).text();
+		var thisIndex = $('.gg-select li').index($(this));
+		$('.gg-select > span').html('<span>'+ thisText +'<i></i></span>')
+		
+		$('.gg-services > div').hide().eq(thisIndex).show();
+	})
+
+	$(document).click(function(){
+		$('.gg-select ul').hide()
+	})
+
 });

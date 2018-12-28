@@ -1057,6 +1057,56 @@ html, body {
   margin-bottom: 1.92rem;
 }
 
+.gg-select {
+  width: 26rem;
+  height: 3.2rem;
+  margin: 0 auto;
+  line-height: 3.2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0 1.8rem;
+  box-sizing: border-box;
+  background-color: #b40000;
+  border-radius: 1.6rem;
+  position: relative;
+  z-index: 2;
+}
+.gg-select > span {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+.gg-select i {
+  position: absolute;
+  right: 0rem;
+  top: 1.4rem;
+  width: 0;
+  height: 0;
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+.gg-select ul {
+  width: 26rem;
+  margin: -1.2rem 0 0 -1.8rem;
+  padding: 2rem 1.8rem 0.8rem;
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+  border-bottom-right-radius: 1.6rem;
+  border-bottom-left-radius: 1.6rem;
+  background-color: #b40000;
+}
+
+.gg-services p {
+  display: block;
+  margin: 0 auto;
+  width: 26rem;
+  font-size: 1.28rem;
+  line-height: 1.92rem;
+  color: #000;
+}
+
 .gg-traffic {
   width: 100%;
   margin: 4rem 0;

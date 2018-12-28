@@ -348,6 +348,53 @@ html,body{ min-height: 100%; min-width: 100%; }
 }
 
 // page-6
+.gg-select{
+	width: rem(650);
+	height: rem(80);
+	margin: 0 auto;
+	line-height: rem(80);
+	font-size: rem(30);
+	color: #fff;
+	padding: 0 rem(45);
+	box-sizing: border-box;
+	background-color: #b40000;
+	border-radius: rem(40);
+	position: relative;
+	z-index: 2;
+	>span{display: block; position: relative; z-index: 2;}
+	i{
+		position: absolute;
+		right: rem(0);
+		top: rem(35);
+		width: 0;
+		height: 0;
+		border-width: rem(10);
+		border-style: solid;
+		border-color: #fff transparent transparent transparent;
+	}
+	ul{
+		width: rem(650);
+		margin: rem(-30) 0 0 rem(-45);
+		padding: rem(50) rem(45) rem(20);
+		position: absolute;
+		z-index: 1;
+		box-sizing: border-box;
+		border-bottom-right-radius: rem(40);
+		border-bottom-left-radius: rem(40);
+		background-color: #b40000;
+	}
+}
+
+.gg-services{
+	p{
+		display: block;
+		margin: 0 auto;
+		width: rem(650);
+		font-size: rem(32);
+		line-height: rem(48);
+		color: #000;
+	}
+}
 
 // page-7
 
@@ -355,3 +402,7 @@ html,body{ min-height: 100%; min-width: 100%; }
 	width: 100%;
 	margin: rem(100) 0;
 }
+
+// page-8
+
+
