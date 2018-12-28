@@ -68,7 +68,8 @@ html,body{ min-height: 100%; min-width: 100%; }
 		bottom: 0;
 		transform: translateX(-50%);
 		width: rem(135);
-		animation: topAndBottom 1.5s infinite;
+		transform-origin: center bottom;
+		animation: bounce 1.3s cubic-bezier(0.30, 2.40, 0.85, 2.50) infinite;
 	}
 	.background{
 		width: 100%;

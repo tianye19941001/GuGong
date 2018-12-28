@@ -58,6 +58,27 @@
 	100%{ transform: translateX(-50%) translateY(-10%); }
 }
 
+@-webkit-keyframes bounce {
+	from, to {
+		-webkit-transform: translateX(-50%) translateY(1rem) scaleY(.98);
+		transform: translateX(-50%) translateY(1rem) scaleY(.98);
+	}
+	80% {
+		-webkit-transform: translateX(-50%) translateY(0rem) scaleY(1.02);
+		transform: translateX(-50%) translateY(0rem) scaleY(1.02);
+	}
+}
+@keyframes bounce {
+	from, to {
+		-webkit-transform: translateX(-50%) translateY(1rem) scaleY(.98);
+		transform: translateX(-50%) translateY(1rem) scaleY(.98);
+	}
+	80% {
+		-webkit-transform: translateX(-50%) translateY(0rem) scaleY(1.02);
+		transform: translateX(-50%) translateY(0rem) scaleY(1.02);
+	}
+}
+
 @keyframes xuanzhuan{
 	0%{ transform: rotate(0) }
 	50%{ transform: rotate(180deg) }

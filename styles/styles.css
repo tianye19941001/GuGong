@@ -422,6 +422,26 @@ a:active {
     transform: translateX(-50%) translateY(-10%);
   }
 }
+@-webkit-keyframes bounce {
+  from, to {
+    -webkit-transform: translateX(-50%) translateY(1rem) scaleY(0.98);
+    transform: translateX(-50%) translateY(1rem) scaleY(0.98);
+  }
+  80% {
+    -webkit-transform: translateX(-50%) translateY(0rem) scaleY(1.02);
+    transform: translateX(-50%) translateY(0rem) scaleY(1.02);
+  }
+}
+@keyframes bounce {
+  from, to {
+    -webkit-transform: translateX(-50%) translateY(1rem) scaleY(0.98);
+    transform: translateX(-50%) translateY(1rem) scaleY(0.98);
+  }
+  80% {
+    -webkit-transform: translateX(-50%) translateY(0rem) scaleY(1.02);
+    transform: translateX(-50%) translateY(0rem) scaleY(1.02);
+  }
+}
 @keyframes xuanzhuan {
   0% {
     transform: rotate(0);
@@ -691,7 +711,8 @@ html, body {
   bottom: 0;
   transform: translateX(-50%);
   width: 5.4rem;
-  animation: topAndBottom 1.5s infinite;
+  transform-origin: center bottom;
+  animation: bounce 1.3s cubic-bezier(0.3, 2.4, 0.85, 2.5) infinite;
 }
 .gg-footer .background {
   width: 100%;
